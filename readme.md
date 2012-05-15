@@ -14,7 +14,8 @@
 * demojs 目录下的 `example-component.js example-page.js` 为示例js代码
 * jquery-1.7.extern.js 为 closure 在编译时需要参考的引用文件
 * demo.html 为 调试阶段使用的html，demo.compiled.html则是编译后的。
+
 ---
-## 如何使用 jQuery 
+## 如何在closure使用 jQuery 
 建议在closure中把 jQuery 作为**语言增强**库使用，代码组件结构建议保留closure的组件风格。
 jQuery特有的插件开发模式请慎用 *（理解closure compiler 高级编译模式的特性很重要）* 

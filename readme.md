@@ -5,7 +5,7 @@
 将 closure-library 解压到repo目录当中,文件夹重命名为 `closure-library`
 2. 下载 [closure compiler](http://code.google.com/p/closure-compiler/downloads/detail?name=compiler-latest.zip&can=2&q=), 
 解压后 将 compiler.jar 拷贝到 repo 目录中
-
+3. 直接打开 demo.html 和 demo.compiled.html 查看效果
 ## makefile
 * 在开发阶段，当有新的js文件需要加入 dep tracker 时，运行 `make debug` 以计算依赖
 * 发布阶段，运行 `make build` 编译最终代码。

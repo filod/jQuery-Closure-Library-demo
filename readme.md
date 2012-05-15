@@ -17,6 +17,10 @@
 * demo.html 为 调试阶段使用的html，demo.compiled.html则是编译后的。
 
 ---
+
 ## 如何在closure使用 jQuery 
 建议在closure中把 jQuery 作为**语言增强**库使用，代码组件结构建议保留closure的组件风格。
 jQuery特有的插件开发模式请慎用 *（理解closure compiler 高级编译模式的特性很重要）* 
+
+### 关于jQuery版本
+目前由google提供的jquery extern文件版本为1.7，按照jQuery的api变动惯例 1.7.0 ~ 1.7.2(current) 版本都可以自由使用。

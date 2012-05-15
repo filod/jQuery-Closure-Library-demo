@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+  <!--
+  demo.html
+  closure_jq
+
+  Created by filod on 2012-05-15.
+  Copyright 2012 filod. All rights reserved.
+  -->
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>demo</title>
+  </head>
+  <body id="demo" onload="">
+    <button id='press-me'>
+      按我
+    </button>
+    <script src="jquery-latest.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="closure-library/closure/goog/base.js" type="text/javascript" charset="utf-8"></script>
+    <script src="demo-deps.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      goog.require('page.Demo');
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      page.Demo.init();
+    </script>
+  </body>
+</html>
